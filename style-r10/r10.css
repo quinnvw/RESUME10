@@ -1,0 +1,42 @@
+a {
+text-decoration: none;
+
+}
+
+#jumbo{
+    background-image: url(qq.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 40rem;
+}
+
+#carouselExampleSlidesOnly{
+    height: 25rem;
+}
+
+.introtext {
+    padding-top: 150px;
+}
+@media (min-width: 0px) { 
+    #jumbo{
+        background-position: right;
+        background-size: contain;
+        height: 20rem;
+        
+
+    }
+}
+
+@media (min-width: 576px) { 
+    #jumbo{
+        height: 27rem;
+    }
+ }
+
+ @media (min-width: 992px) { #jumbo{
+     height: 35rem ;
+     background-size: contain;
+    background-position-x: 82%;
+ } }
+
+
