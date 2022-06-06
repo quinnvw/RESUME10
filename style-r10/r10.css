@@ -3,11 +3,52 @@ text-decoration: none;
 
 }
 
-#jumbo{
-    background-image: url(img-r10\qq.png);
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: contain;
+.bi{
+    color: white;
+}
+.navbar-brand{
+    border-radius: 70%;
+}
+
+
+.carousel-caption{
+    position: relative;
+   text-align: left;
+   left: 8%;
+   width: 70%;
+}
+
+
+footer{
+    bottom: 0px;
+}
+
+
+.wbt::before {
+    content: "Web designer";
+    animation: animate infinite 8s;
+    display: inline;
+}
+
+@keyframes animate {
+
+    0% {
+        content: "Web developer";
+    }
+
+    50% {
+        content: "Freelancer";
+    }
+
+    
+}
+
+#jumbo
+{
+    background-image: url("../quinn.png");
+   
+    background-repeat: repeat;
+    
     height: 40rem;
 }
 
@@ -17,28 +58,92 @@ text-decoration: none;
 
 .introtext {
     padding-top: 150px;
+    
+}
+
+.btn  {
+        cursor: pointer;
+        
+        
+        
+      
 }
 @media (min-width: 0px) { 
+    .carousel-caption{
+        position: relative;
+       text-align: left;
+       left: 15%;
+       width: 70%;
+    }
     #jumbo{
+        background-repeat: no-repeat;
+        background-size: 130%;
+        height: 19rem;
+        background-position: right bottom;
         
-        background-size: contain;
-        height: 20rem;
-        
+      
 
+    }
+    .carousel-caption h3{
+        font-size: 1rem;
+        
+    }
+    .carousel-caption p{
+        font-size: 0.8rem;
+    }
+    .card-title  {
+        font-size: 1rem;
+        
+    }
+    .card-text{
+        font-size: 0.8rem ;
+    }
+    .card-header{
+        font-size: 00.9rem;
     }
 }
 
 @media (min-width: 576px) { 
     #jumbo{
         height: 27rem;
+        background-position: right;
+     background-position: bottom;
+     background-repeat: no-repeat;
+     background-size: 100%;
+    }
+    .card-header{
+        font-size: 0,9rem;
+    }
+    .carousel-caption h3 {
+        font-size: 2rem;
+        
+    }
+    .carousel-caption{
+        position: relative;
+       text-align: left;
+       left: 6%;
+       width: 70%;
     }
  }
 
- @media (min-width: 992px) { #jumbo{
-     height: 35rem ;
-     background-size: contain;
-     background-image: url(img-r10\qq.png);
-    
- } }
+
+@media (min-width: 992px) { #jumbo{
+     height: 40rem ;
+   
+     background-image: url("../quinn.png");
+     background-position: right;
+     background-position: bottom;
+     background-repeat: no-repeat;
+     background-size: 100%;
+ }
+ .card-header{
+     font-size: 1.2rem;
+ }
+.introtext{
+    font-size: 40px;
+}
+.introtext h1{
+    font-size: 70px;
+} }
 
 

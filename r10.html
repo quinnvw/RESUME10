@@ -16,10 +16,10 @@
   <body>
 
     <!---nav-->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
       <div class="container-fluid">
         
-        <a class="ps-3 navbar-brand" href="#">CV</a>
+        <a class="text-white me-3 ms-1 pe-2 ps-2 navbar-brand bg-dark " href="#">CV</a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -40,7 +40,7 @@
        <!--jumbo text-->
        <div class="container introtext">
          <h1>Quinn von Wiese</h1>
-         <p class="ps-1 text-white bg-dark">Web designer</p>
+         <span class="ps-1 pe-1 text-white bg-dark wbt"></span>
        </div>
      </div>
       
@@ -48,37 +48,38 @@
     
 
      <!--overview-->
-    <div class="container-fluid pb-sm-5 pt-sm-5 bg-light">
+    <div class="container-fluid pb-sm-5 pt-sm-5 bg-dark" id="overview">
       <div class="container">
 
-        <div class="pt-sm-5 row justify-content-center">
+        <div class="pt-sm-5 pb-sm-5 row gx-5 justify-content-center">
+          
 
-          <div class=" pt-2 pt-sm-5 pb-sm-5 col-10 col-sm-4">
-            <div class="card">
+          <div class=" pt-2 pt-sm-5  pb-sm-5 col-10 col-sm-4">
+            <div class="card bg-dark border-light">
               <div class="card-body">
-                <h5 class="card-title">Education</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary">Read more</a>
+                <h5 class="card-header text-white  ">Education</h5>
+                <p class="card-text text-muted">With supporting text below as a natural lead-in to additional content.</p>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" aria-label="Slide 1" class="btn btn-dark btn-outline-secondary">Read more</button>
               </div>
             </div>
           </div>
 
           <div class="pt-5 col-10 col-sm-4">
-            <div class="card">
+            <div class="card bg-dark border-light">
               <div class="card-body">
-                <h5 class="card-title">Experience</h5>
-                <p class="card-text">text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary">Read more</a>
+                <h5 class="card-header text-white  ">Experience</h5>
+                <p class="card-text text-muted">with supporting text below as a natural lead-in to additional content.</p>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" class="btn btn-dark btn-outline-secondary">Read more</button>
               </div>
             </div>
           </div>
 
-          <div class="pt-5 col-10 col-sm-4">
-            <div class="card">
+          <div class="pt-5 pb-2 col-10 col-sm-4">
+            <div class="card bg-dark border-light ">
               <div class="card-body">
-                <h5 class="card-title">Skills</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary">Read more</a>
+                <h5 class="card-header text-white  ">Skills</h5>
+                <p class="card-text text-muted">With supporting text below as a natural lead-in to additional content.</p>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" class="btn btn-dark btn-outline-secondary">Read more</button>
               </div>
             </div>
           </div>
@@ -88,48 +89,53 @@
     </div>
 
    <!--main-->
-   <div class="container-fluid">
+   <div class="container-fluid pt-5 ">
     
-      <div id="carouselExampleSlidesOnly" class=" pb-2 pt-5 carousel-dark carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+       <div id="carouselExampleIndicators"" class="  carousel-dark carousel slide" data-bs-ride="true">
+        
+
+         <div class="carousel-inner ">
+
+           <div class="carousel-item active" id="education">
+             <img src="img-r10\plain-white-background.jpg" alt="">
+               <div class="carousel-caption  ">
+                 <h3 id="">Education</h3>
+                 <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat dolor repellendus in consequatur enim dolorem aliquid reprehenderit rerum, itaque ipsum est a veniam debitis ut sit laborum esse facilis recusandae. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto minima quisquam sapiente mollitia dolorem dicta animi possimus, ut cumque? Harum est recusandae ipsa maiores tempora laudantium sapiente a saepe magni. Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p >
+               </div>
+           </div>
+
+           <div class="carousel-item " id="experience">
+             <img src="img-r10\plain-white-background.jpg" alt="">
+               <div class="carousel-caption  ">
+                 <h3>Experience</h3>
+                 <p class="text-muted"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium unde eum sunt Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio blanditiis nisi molestias obcaecati dolor explicabo itaque laudantium iure commodi, maxime molestiae, distinctio omnis necessitatibus laborum ab tempore rerum neque nesciunt. sequi ea sint amet corporis error molestiae voluptate! Incidunt animi labore nobis sit, nisi unde blanditiis illo assumenda.  nulla commodi omnis fugiat. Maiores nesciunt asperiores!</p >
+               </div>
+           </div>
+
+           <div class="carousel-item " id="skills">
+             <img src="img-r10\plain-white-background.jpg" alt="">
+               <div class="carousel-caption  ">
+                 <h3 class="text-dark ">Skills</h3>
+                 <p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo porro aperiam iusto voluptatum recusandae vero, maxime exercitationem accusantium cum minus a accusamus voluptate impedit inventore rem tempora Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos aut, odit quidem inventore sequi cum voluptatem vitae earum nemo magni vero obcaecati beatae, culpa in perferendis est aspernatur! Quae, placeat? totam vitae. Officia? architecto facilis temporibus molestias, voluptatibus esse.</p >
+               </div>
+           </div>
+         </div>
+          
+
+          
+         
+        
         </div>
-
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="img-r10\plain-white-background.jpg" alt="">
-              <div class="carousel-caption">
-                <h3>Education</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
-              </div>
-          </div>
-
-          <div class="carousel-item">
-            <img src="img-r10\plain-white-background.jpg" alt="">
-              <div class="carousel-caption">
-                <h3>Experience</h3>
-                <p>   nulla commodi omnis fugiat. Maiores nesciunt asperiores iusto et expedita!</p>
-              </div>
-          </div>
-
-          <div class="carousel-item">
-            <img src="img-r10\plain-white-background.jpg" alt="">
-              <div class="carousel-caption">
-                <h3 class="text-dark ">Skills</h3>
-                <p> architecto facilis temporibus molestias, voluptatibus esse.</p>
-              </div>
-          </div>
-        </div>
-      </div>
-     </div>
+   </div>
+     
+   
    
      
-    <footer class="mt-5 text-center bg-light">
-      <p class="text-muted">Contact</p>
-      <i class="bi bi-instagram"></i>
-      <i class="bi bi-linkedin"></i>
+
+    <footer class="mt-5 pt-3 bg-dark  text-center " id="Contact">
+      
+      <a href="https://www.instagram.com/"><i class=" bi bi-instagram"></i></a>
+      <a href="https://www.linkedin.com/feed/?trk=onboarding-landing"><i class="bi bi-linkedin"></i></a>
 
     </footer>
 
